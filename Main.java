@@ -10,49 +10,52 @@ public class Main {
         System.out.println(cat);
         var paper = 763789;
         System.out.println(paper);
-        var resulta = dog + 4;
-        System.out.println(dog + 4);
-        var resultb = cat + 4;
-        System.out.println(cat + 4);
-        var resultc = paper + 4;
-        System.out.println(paper + 4);
-        var resultx = dog - 3.5;
-        System.out.println(resulta - 3.5);
-        var resulty = cat - 1.6;
-        System.out.println(resultb - 1.6);
-        var resultz = paper - 7639;
-        System.out.println(resultc - 7639);
 
+        var resulta = dog + 4;
+        System.out.println(resulta);
+        var resultb = cat + 4;
+        System.out.println(resultb);
+        var resultc = paper + 4;
+        System.out.println(resultc);
+
+
+        var resultx = dog - 3.5;
+        System.out.println(resultx);
+        var resulty = cat - 1.6;
+        System.out.println(resulty);
+        var resultz = paper - 7639;
+        System.out.println(resultz);
 
 
         var friend = 19;
         System.out.println(friend);
         var resultf = friend + 2;
-        System.out.println(friend + 2);
+        System.out.println(resultf);
         var resultfr = resultf / 7;
-        System.out.println(resultf / 7);
+        System.out.println(resultfr);
 
 
 
         var frog = 3.5;
         System.out.println(frog);
         var result = frog * 10;
-        System.out.println(frog * 10);
+        System.out.println(result);
         var resultF = result / 3.5;
-        System.out.println(result / 3.5);
+        System.out.println(resultF);
         var resultFr = resultF + 4;
-        System.out.println(resultF + 4);
+        System.out.println(resultFr);
 
 
 
         var massBoxer1 = 78.2;
         var massBoxer2 = 82.7;
         var totalMass = massBoxer1 + massBoxer2;
-        System.out.println(" Общая масса боксеров " + (massBoxer1 + massBoxer2) + " кг ");
-        var massDifference = massBoxer1 - massBoxer2;
-        System.out.println(" Разница между массами бойцов " + (massBoxer1 - massBoxer2) + " кг ");
+        System.out.println("Общая масса боксеров " + totalMass + " кг");
+        var massDifference = massBoxer2 - massBoxer1;
+        System.out.println("Разница между массами бойцов " + massDifference + " кг");
         var massDivision = massBoxer2 % massBoxer1;
-        System.out.println(massBoxer2 % massBoxer1);
+        System.out.println("Остаток от деления масс: " + massDivision);
+
 
 
 
@@ -62,10 +65,11 @@ public class Main {
         var fullTime = 640;
         var dayTime = 8;
         var worker = fullTime / dayTime;
-        System.out.println(" Всего работников в компании " + worker + " человек ");
+        System.out.println("Всего работников в компании " + worker + " человек");
+
         var addWorker = worker + 94;
         var addFullTime = addWorker * dayTime;
-        System.out.println(" Если в компании работает " + addWorker + " человека, то всего " + addFullTime + " часов работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает " + addWorker + " человек, то всего " + addFullTime + " часов работы может быть поделено между сотрудниками");
 
 
 
