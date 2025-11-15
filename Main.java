@@ -11,20 +11,21 @@ public class Main {
         var paper = 763789;
         System.out.println(paper);
 
-        var resulta = dog + 4;
-        System.out.println(resulta);
-        var resultb = cat + 4;
-        System.out.println(resultb);
-        var resultc = paper + 4;
-        System.out.println(resultc);
+
+        dog = dog + 4;
+        System.out.println(dog);
+        cat = cat + 4;
+        System.out.println(cat);
+        paper = paper + 4;
+        System.out.println(paper);
 
 
-        var resultx = dog - 3.5;
-        System.out.println(resultx);
-        var resulty = cat - 1.6;
-        System.out.println(resulty);
-        var resultz = paper - 7639;
-        System.out.println(resultz);
+        dog = dog - 3.5;
+        System.out.println(dog);
+        cat = cat - 1.6;
+        System.out.println(cat);
+        paper = paper - 7639;
+        System.out.println(paper);
 
 
         var friend = 19;
